@@ -205,3 +205,15 @@
   margin-top: 3rem;
   /* border-bottom: 6px solid rgb(198, 198, 255); */
 }
+
+.title-softskill p{
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(171, 171, 234);
+  margin-top: 4rem;
+}
+
+.section_our_solution{
+  margin-top: 7rem;
+}
