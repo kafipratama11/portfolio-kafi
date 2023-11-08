@@ -1,0 +1,83 @@
+.home{
+    min-height: 100vh;
+    padding-top: 8rem;
+}
+
+.home .location-profile{
+    font-size: 15px;
+    margin-bottom: -2rem;
+    font-weight: 500;
+}
+
+.location-profile p{
+    color: rgb(163, 163, 163);
+}
+
+.home .tag-profile-1 p, .tag-profile-2{
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tag-profile-2 p,.tag p{
+    margin-top: -3.3rem;
+}
+
+.home .tag-profile-1 p{
+    color: rgb(2, 2, 70);
+}
+
+.home .tag-profile-2 p{
+    color: rgb(115, 189, 215);
+}
+
+.detail-tag p{
+    font-weight: 500;
+    color: rgb(2, 2, 70);
+    margin-top: -1rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.photo img {
+    --s: 350px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: rgb(2, 2, 70); /* the color */
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 50%;
+  }
+.photo img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+  
+  .photo img + .photo img {
+    border-radius: 50%;
+  }
+  
+  
+  .photo {
+    margin: 0;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    place-content: center;
+    place-items: center;
+  }
+
+/* .background{
+    border-radius: 50%;
+    padding: 10rem;
+    background-color: #4ECDC4;
+    left: -4rem;
+} */
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(122, 122, 222);
+}

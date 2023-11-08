@@ -1,0 +1,52 @@
+.about{
+    min-height: 40vh;
+    background: #f2f4f8;
+}
+
+.text-about p{
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 7rem;
+}
+
+.bottom-about{
+    padding-bottom: 4rem;
+}
+
+  .first-name , .last-name, .mid-name{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.first-name {
+  padding-top: 9rem;
+}
+
+.mid-name, .last-name{
+  margin-top: -2.5rem;
+}
+
+.first-name p,.last-name p{
+  
+  color: rgb(115, 189, 215);
+}
+
+.mid-name{
+  color: rgb(2, 2, 70);
+  font-style: italic;
+}
+
+.text-about-2 p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.status p{
+  font-weight: 400;
+  font-style: italic;
+  margin-top: -1.3rem;
+  letter-spacing: 1px;
+  color: rgb(42, 23, 129);
+}

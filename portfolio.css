@@ -1,0 +1,28 @@
+.portfolio{
+    height: 100vh;
+    background: #f2f4f8;
+}
+
+.title-portfolio p{
+    font-size: 40px;
+  font-weight: 500;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 12rem;
+  color: rgb(171, 171, 234);
+  margin-bottom: 2rem;
+}
+
+.box{
+    height: 170px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 0.1px solid rgb(206, 204, 204);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.box img{
+    /* margin-top: 10px; */
+}

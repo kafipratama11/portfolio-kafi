@@ -1,0 +1,35 @@
+.contact{
+    height: 100vh;
+    background-color: ;
+}
+
+.title-contact p{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 7rem;
+    color: rgb(171, 171, 234);
+    margin-bottom: 2rem;
+}
+
+.box-icon{
+    height: 40px;
+    width: 40px;
+    border: 0.5px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(171, 171, 234);
+}
+
+.box-icon i{
+    color: rgb(255, 255, 255);
+}
+
+.lord-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
