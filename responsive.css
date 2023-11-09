@@ -3,7 +3,6 @@
     .home{
         padding-left: 1rem;
         padding-right: 1rem;
-        min-height: 130vh;
     }
     .home .tag-profile-1 p, .tag-profile-2 p{
         font-size: 44px;
@@ -74,16 +73,21 @@
     .first-name, .mid-name ,.last-name ,.status{
         justify-content: center;
         display: flex;
-        margin: 0.7rem;
+    }
+    .mid-name p,.last-name p{
+        margin-top: -0.1rem;
     }
 
-    .detail-about {
-        font-size: 12px;
+    .status{
+        font-size: 10px
+    }
+    .detail-about p{
+        font-size: 14px;
     }
 
     /* skill */
     .skill{
-        min-height: 670vh;
+        min-height: 750vh;
     }
 
     .card{
@@ -98,11 +102,13 @@
         display: flex;
     }
     .portfolio{
-        min-height: 120vh;
+        min-height: 170vh;
     }
 
     /* contact */
     iframe{
         margin-top: 5rem;
+        height: 200px;
+        width: 300px;
     }
 }
