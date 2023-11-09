@@ -1,0 +1,107 @@
+@media screen and (max-width : 767px){
+    /* home */
+    .home{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .home .tag-profile-1 p, .tag-profile-2 p{
+        font-size: 44px;
+        font-weight: 800;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: -2rem;
+        
+    }
+    .home .location-profile{
+        font-size: 15px;
+        margin-bottom: 2rem;
+        font-weight: 500;
+    }
+
+    .button-profile{
+        margin-bottom: 4rem;
+    }
+
+    .buton{
+        justify-content: center;
+        display: flex;
+    }
+
+    .photo img {
+        --s: 250px;   /* the size of the image */
+        --b: 5px;     /* the border thickness*/
+        --g: 10px;    /* the gap */
+        --c: rgb(2, 2, 70); /* the color */
+        width: var(--s);
+        aspect-ratio: 1;
+        outline: calc(var(--s)/2) solid #0009;
+        outline-offset: calc(var(--s)/-2);
+        cursor: pointer;
+        transition: .3s;
+        border-radius: 50%;
+      }
+    
+    .photo img:hover {
+        outline: var(--b) solid var(--c);
+        outline-offset: var(--g);
+      }
+      
+      .photo img + .photo img {
+        border-radius: 50%;
+      }
+      
+      
+      .photo {
+        margin: 0;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 50px;
+        place-content: center;
+        place-items: center;
+      }
+
+      .detail-tag p{
+        font-size: 15px;
+      }
+
+    /* about */
+
+    .about ,.portfolio,.home,.skill,.contact{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .first-name, .mid-name ,.last-name ,.status{
+        justify-content: center;
+        display: flex;
+        margin: 0.7rem;
+    }
+
+    .detail-about {
+        font-size: 12px;
+    }
+
+    /* skill */
+    .skill{
+        min-height: 570vh;
+    }
+
+    .card{
+        margin-top: 2.5rem;
+    }
+
+    /* portfolio */
+
+    .box{
+        margin-top: 2rem;
+        justify-content: center;
+        display: flex;
+    }
+    .portfolio{
+        min-height: 120vh;
+    }
+
+    /* contact */
+    iframe{
+        margin-top: 5rem;
+    }
+}
