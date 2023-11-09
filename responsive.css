@@ -3,6 +3,7 @@
     .home{
         padding-left: 1rem;
         padding-right: 1rem;
+        min-height: 130vh;
     }
     .home .tag-profile-1 p, .tag-profile-2 p{
         font-size: 44px;
@@ -82,7 +83,7 @@
 
     /* skill */
     .skill{
-        min-height: 570vh;
+        min-height: 670vh;
     }
 
     .card{
