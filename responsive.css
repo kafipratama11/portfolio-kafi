@@ -3,6 +3,7 @@
     .home{
         padding-left: 1rem;
         padding-right: 1rem;
+        height: 130vh;
     }
     .home .tag-profile-1 p, .tag-profile-2 p{
         font-size: 44px;
@@ -74,8 +75,12 @@
         justify-content: center;
         display: flex;
     }
+
+    .first-name p ,.last-name p,.mid-name p{
+        font-size: 40px;
+    }
     .mid-name p,.last-name p{
-        margin-top: -0.1rem;
+        margin-top: 0.4rem;
     }
 
     .status{
@@ -106,6 +111,11 @@
     }
 
     /* contact */
+
+    .peta{
+        display: flex;
+        justify-content: center;
+    }
     iframe{
         margin-top: 5rem;
         height: 200px;
